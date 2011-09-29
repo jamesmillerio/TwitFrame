@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TwitFrame</string>
+    <string name="twitter_authenticate">Log in to Twitter</string>
+    <string name="twitter_unauthorized">TweetFrame was not given access to your Twitter stream.</string>
+    <string name="settings">Settings</string>
+    <string name="twitter_logout">Log out of Twitter</string>
+    <string name="tweet_list_label">Display tweets from:</string>
+    <string name="randomize">Randomize Tweets</string>
+    <string name="save_settings_continue">Save and Continue</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="select_one">Select One</string>
+    <string name="really_logout">Really log out? Please note that you will need to restart TwitFrame.</string>
+    <string name="really_logout_title">Log out?</string>
+    <string name="settings_saved_successfull">Settings saved successfully</string>
+    <string name="no_statuses_available">You have no tweets given your current settings. Modify your settings and try again.</string>
+    <string name="blank"></string>
+    <string name="logged_in_as">Logged in as</string>
+    <string name="everyone">Everyone</string>
+    <string name="loading">Loading... This may take a moment.</string>
+    <string name="go_to_twitter">Would you like to log in to Twitter now? Please note, if you have logged in previously you may need to clear your cookies.</string>
+    <string name="log_in_to_twitter">Log in to Twitter?</string>
+    <string name="exit">Exit</string>
+    <string name="developed_by">Developed by James Miller</string>
+    <string name="my_twitter">Follow me at \ @s13james</string>
+    <string name="miller_byteworks">Miller Byteworks LLC</string>
+    <string name="miller_byteworks_url">www.millerbyteworks.com</string>
+    <string name="about">About</string>
+    <string name="follow_me">Follow Me!</string>
+    <string name="log_in_first">Please log in before trying to follow me :)</string>
+    <string name="error_following">Blasts! There was an error following me. Try again later perhaps?</string>
+    <string name="successfully_following">Awesome! You\'re following me now. Thanks!</string>
+    <string name="description">TwitFrame is an application that turns your Android device into a frame that streams your Twitter statuses. Dock your device and passively keep up with your friends as their updates come in.</string>
+</resources>

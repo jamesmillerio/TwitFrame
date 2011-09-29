@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/gradient">
+    <ImageView android:id="@+id/imageView1" android:src="@drawable/logo" android:layout_height="wrap_content" android:layout_width="match_parent"></ImageView>
+    <ScrollView android:layout_width="match_parent" android:layout_height="fill_parent" android:id="@+id/scrollView1">
+    	<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:background="@drawable/gradient">
+		    <TextView android:id="@+id/tvLoggedInUser" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="@string/blank"></TextView>
+		    <Button android:text="@string/twitter_authenticate" android:id="@+id/btnAuthenticate" android:layout_height="wrap_content" android:layout_width="match_parent"></Button>
+		    <TextView android:layout_width="wrap_content" android:text="@string/tweet_list_label" android:id="@+id/textView1" android:layout_height="wrap_content"></TextView>
+		    <Spinner android:layout_width="match_parent" android:id="@+id/spnTwitterList" android:prompt="@string/select_one" android:layout_height="wrap_content"></Spinner>
+		    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:weightSum="1.0">
+		        <Button android:text="@string/save_settings" android:layout_height="wrap_content" android:layout_weight=".5" android:layout_width="0dip" android:id="@+id/btnSave"></Button>
+		        <Button android:text="@string/save_settings_continue" android:layout_height="wrap_content" android:layout_weight=".5" android:layout_width="0dip" android:id="@+id/btnSaveAndContinue"></Button>
+		    </LinearLayout>
+	    </LinearLayout>
+	</ScrollView>
+</LinearLayout>

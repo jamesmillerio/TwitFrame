@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@drawable/gradient" android:orientation="vertical" android:weightSum="1.0" android:paddingTop="10px" android:paddingLeft="10px">
+    <LinearLayout android:layout_height="0dip" android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_weight="0.4" android:weightSum="1.0">
+        <ImageView android:id="@+id/imgAvatar" android:layout_width="0dip" android:layout_height="match_parent" android:layout_weight="0.2"></ImageView>
+        <LinearLayout android:layout_height="match_parent" android:layout_width="0dip" android:layout_weight="0.8" android:id="@+id/linearLayout2" android:orientation="vertical" android:paddingLeft="10px" android:gravity="right">
+            <TextView android:layout_height="wrap_content" android:gravity="bottom" android:id="@+id/tvTwitterHandle" android:layout_width="wrap_content" android:textSize="35sp" android:text="@string/blank"></TextView>
+            <TextView android:layout_height="wrap_content" android:id="@+id/tvTimestamp" android:layout_width="wrap_content" android:text="@string/blank"></TextView>
+        </LinearLayout>
+    </LinearLayout>
+    <ScrollView android:layout_height="0dip" android:layout_weight="0.6" android:layout_width="match_parent" android:layout_marginTop="20px">
+    	<TextView android:id="@+id/tvTweetText" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="25sp" android:text="@string/blank"></TextView>
+	</ScrollView>
+</LinearLayout>
